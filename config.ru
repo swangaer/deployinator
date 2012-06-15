@@ -9,6 +9,8 @@ end
 
 # Ignore the ssl cert on github:fi
 ENV["GIT_SSL_NO_VERIFY"] = "true"
+ENV["HTTP_X_USERNAME"] = "swangaer"
+ENV["HTTP_X_GROUPS"] = "test"
 
 use Rack::CommonLogger
 
